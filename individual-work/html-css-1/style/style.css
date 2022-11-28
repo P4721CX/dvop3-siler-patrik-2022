@@ -52,9 +52,21 @@ table {
   border-spacing: 0;
 }
 
+p {
+  font-size: .8rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
 header {
   width: 100%;
-  height: 20%;
+  height: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,6 +80,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 1% 0%;
   background-color: #222222;
 }
 
@@ -155,7 +168,7 @@ body {
 
 section {
   width: 60%;
-  height: 80%;
+  height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,12 +255,16 @@ section #projects-container .project-box {
 
 section #projects-container .project-box img {
   width: 100%;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 section #projects-container .project-box .project-text {
   width: 100%;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,7 +280,14 @@ section #projects-container .project-box .project-text {
           justify-content: space-evenly;
 }
 
-section #projects-container .project-box .project-text > * {
-  margin: 2% 0%;
+section #projects-container .project-box .project-text h2 {
+  color: #387bb7;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#footer {
+  margin-top: 10%;
+  margin-bottom: 2%;
 }
 /*# sourceMappingURL=style.css.map */
